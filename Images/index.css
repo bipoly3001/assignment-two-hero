@@ -1,0 +1,87 @@
+/* Shared Style */
+*{
+    box-sizing: border-box;
+}
+ /* font style */
+ @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+ *{
+    font-family: 'Mulish', sans-serif;
+ }
+
+
+ /* Header starts here */
+
+ .header{
+    border:5px solid black;
+    margin:5px 135px;
+    display:flex;
+    border: 5px solid turquoise;
+     }
+
+ nav {
+    display:flex;
+    justify-content: space-between; 
+    align-items: center;    
+    margin: 5px 135px;  
+       
+ }
+
+ ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+ }
+
+ li {
+    float:left;
+    margin-right: 20px;
+     }
+
+li a{
+    display:block;
+    padding:20px;
+    text-decoration: none;
+    color:#424247;
+    font-size: 1.12rem;
+    font-weight:400;
+    
+}
+
+.image-one{
+    width: 48px;
+    height: 56px;
+    margin-right:10px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+}
+.nav-title{
+    width:300px;
+    height:45px;
+    color:#131318;
+    font-size: 2.2rem;
+    font-weight: 800;    
+       
+}
+.span-one{
+    color:#ff5400;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+.nav-text{
+    justify-content: center;
+    align-items: center;
+    gap:35px;
+    border:2px solid black;
+    margin-left:500px ;
+    margin-bottom:10px;
+     
+}
+
+li a.header-id-one{
+    color:#ff5400;
+}
+.span-two{
+
+    color:#ff5400;
+}
