@@ -13,7 +13,7 @@
 
  .header{
     border:5px solid black;
-    margin:5px 135px;
+    margin:5px 135px 10px 135px;
     display:flex;
     border: 5px solid turquoise;
      }
@@ -82,6 +82,150 @@ li a.header-id-one{
     color:#ff5400;
 }
 .span-two{
-
     color:#ff5400;
 }
+
+/* section 1 starts here */
+
+.section-one-banner{
+    background-image: url(Group\ 13\ \(1\)\ \(1\).png);
+    width:1170px;
+    height:500px;
+    border-radius:16px;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;    
+    gap:50px;
+    margin-bottom: 100px;
+              
+    }
+
+    .header-banner-title{
+        width:596px;
+        height:80px;       
+        color:#131318;
+        font-size: 3rem;
+        font-weight:800;
+        margin-left: 30%;
+        margin-right: 30%;        
+    }
+
+    .header-banner-text{
+        width:676px;
+        height:52px;
+        color:#ff5400;
+        font-size: 1.3rem;
+        font-weight: 400;
+        margin-left: 25%;
+        margin-right: 30%;        
+    }
+
+    .header-banner-select-option{
+        width:650px;
+        height:50px;
+        display:inline-flex;
+        padding:5px;
+        gap:20px;
+             
+    }
+
+    .header-banner-select-option{
+        width:650px;
+        height:80px;
+        color:rgba(19, 19, 24, 0.50);
+        padding:5px 12px;
+        gap:20px; 
+        border-radius: 12px;
+        background: rgb(232, 138, 122, 0.3);
+        margin-left: 30%;
+        margin-right: 30%;
+        justify-content: center;
+            
+    }
+    #button-one{
+        width:150px;
+        background: #ff5400;
+        color:white;
+        border-radius: 12px;
+        font-size: 1.2rem;
+    }
+    
+    /* section two starts here */
+
+    .section-two-container{
+    width:1170px;
+    height:540px;
+    border-radius:16px;
+    margin:0 auto;
+    display:flex;       
+    gap:125px;
+    margin-bottom: 100px;
+    border:2px solid black;
+    }
+    .section-two-title{
+        width:420px;
+        height:50px;
+        color:#131318;
+        font-size: 1.8rem;
+        text-align: center;
+        font-weight: 800;
+        margin-bottom: 15px;
+            }
+    .section-two-first-text{
+        width:500px;
+        color: #868686;
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 800;
+        margin-bottom: 25px;
+        
+    }
+
+    .section-two-image{
+        background-image: url(Rectangle\ 4.png);
+        width:500px;
+        height:540;
+        
+    }
+
+    .section-two-second-text{
+        color:rgba(19, 19, 24, 0.70);
+        font-size:1rem;
+        font-weight: 400;
+        margin-bottom: 25px;
+    }
+    
+    .section-two-third-text{
+
+      width:530px;
+      color:#5a5a5d;
+      font-size: 1rem;
+      font-weight: 400;
+      text-align:left;
+      margin-left: 5px;
+      margin-bottom: 25px;
+
+    }
+
+    #button-two{
+        width:170px;
+        height:35px;
+        background: #ff5400;
+        color:white;
+        border-radius: 5px;
+        font-size: 1.4rem;
+        padding: 5px;
+
+    }
+
+    /* .section-two-ul{        
+            list-style-type:circle;
+            margin:0;
+            padding:0;
+            overflow:hidden;                
+        
+        }
+        .section-two-li{
+            display:flex;
+            flex-direction: column;
+        } */
