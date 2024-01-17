@@ -12,13 +12,16 @@
  /* Header starts here */
  .header{    
     width:1170px;
-    height:auto;
-    /* margin:5px 135px 10px 135px; */
+    height:auto;    
     display:flex;     
     margin:0 auto;   
      }
 
- nav {
+.container-one{
+    display:flex;
+    align-items: center;
+}
+ nav{
     display:flex;
     justify-content: space-between; 
     align-items: center;    
@@ -75,7 +78,7 @@ li a{
     gap:35px;    
     right:50px;
     margin-bottom:10px;
-     
+    
 }
 
 li a.header-id-one{
@@ -149,20 +152,23 @@ li a.header-id-one{
         border-radius: 12px;
         font-size: 1.2rem;
     }
-    
+    /* section one ends here */
     /* section two starts here */
 
     .section-two-container{
     width:1170px;
     height:540px;
     border-radius:16px;
-    margin:0 auto;
-    display:flex;       
+    margin:0 auto;           
     gap:125px;
     margin-bottom: 100px;
     }
-    
-    
+
+    .section-two-second-container{
+        display:flex;
+        gap: 120px;
+    }
+       
     .section-two-title{
         width:420px;
         height:50px;
@@ -579,4 +585,148 @@ li a.header-id-one{
     color:#131318;
     font-weight: 300;
     margin-left: 43%;
+}
+    
+@media screen and (max-width:600px){                 
+        nav{
+            flex-direction: column;            
+            }  
+        .section-one-banner{
+                background-image: url(Group\ 13\ \(1\)\ \(1\).png);
+                width:580px;
+                height:500px;
+                margin-left: 15%;
+                 }
+            .header-banner-select-option{
+                flex-direction: column;
+                width:50%;
+            }   
+
+            .header-banner-title{
+                width:550px;
+                height:80px;       
+                color:#131318;
+                font-size: 2rem;
+                font-weight:600;
+                margin-left: 25%;        
+            }
+            
+            .header-banner-text{
+                width:550px;
+                height:52px;
+                color:#ff5400;
+                font-size: 1rem;
+                font-weight: 400;
+                margin-left: 8%;
+                margin-right: 30%;        
+            }
+            .section-two-container{
+                width:580px;  
+               height: 1000px;           
+                }
+            .section-two-second-container{
+                flex-direction: column;
+            }
+            .section-two-title,.section-two-first-text,.section-two-three-para,.section-two-third-text
+              { margin-left:50px;
+                 width:540px;
+            }   
+            .section-two-third-text{
+                margin-left: 10px;
+            }
+        .button-two{
+            margin-bottom: 10px;
+        }
+        .section-two-image{
+            margin-top: 10px;
+        }
+
+  .first-row,.second-row,.third-row{
+    flex-direction: column;
+  }
+  .section-three{
+    width:580px;
+    height:auto;
+    border-radius:10px;
+    margin:0 auto;             
+       
+    }
+.section-three-text{
+    margin-left:10px;
+    width:570px;
+}
+.section-three-title{
+    margin-left:20px;
+}
+
+.section-four-container{
+   width: 580px;
+   height:auto;
+}
+
+.section-four-service-type{
+    flex-direction: column;
+}
+.section-four-title{
+    margin-left: 65px;
+}
+.section-four-statement{
+    margin-left:20px
+}
+
+.section-five-container{
+      width:580px;
+      height:auto;
+}
+.section-five-parent{
+    flex-direction: column;
+}
+.section-five-container-one{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.section-five-container-two{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.section-five-title{
+    font-size:1.5rem;
+}
+.section-four-service-gtee-description{
+    margin-bottom: 10px;
+}
+.section-six-container{
+    width:580px;
+    height:auto;
+}
+.section-six-parent{
+    flex-direction: column;
+}
+.section-six-child-one{
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+.section-six-child-two{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.footer-container{
+    width:580px;
+    height:auto;
+}
+
+.footer-firstparent{
+    margin-left: 55px;
+}
+.footer-contact{
+    width:500px;
+    margin:0 20px;
+
+}
+
 }
