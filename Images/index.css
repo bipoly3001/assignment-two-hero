@@ -2,21 +2,19 @@
 *{
     box-sizing: border-box;
 }
+  
  /* font style */
  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
  *{
     font-family: 'Mulish', sans-serif;
  }
 
-
  /* Header starts here */
-
  .header{    
     width:1170px;
     height:auto;
     /* margin:5px 135px 10px 135px; */
-    display:flex; 
-    border:3px solid black;
+    display:flex;     
     margin:0 auto;   
      }
 
@@ -224,10 +222,9 @@ li a.header-id-one{
 /* section three starts here */
 .section-three{
     width:1170px;
-    height:auto;
+    height:1300px;
     border-radius:10px;
-    margin:0 auto;
-    border: 5px solid black;          
+    margin:0 auto;              
         
     }
 
@@ -243,19 +240,38 @@ li a.header-id-one{
 
 .section-three-text{
  width:620px;
- height:521px;
+ height:52px;
  color:rgba(19, 19, 24, 0.70);
  font-size: 1rem;
  font-weight: 400;
  margin:0 auto;
 }
 
-.image-container-one{
-    width: 1170px;
+/* image start here */
+
+.first-row{
     display:flex;
-    height:450px;
-    border:5px solid black;
+    gap:20px;
+    justify-content: space-around;
+    margin-bottom: 10px;
 }
+
+.second-row{
+    display:flex;
+    gap:20px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.third-row{
+    display:flex;
+    gap:20px;
+    justify-content: space-around;
+
+}
+
+
+
 
 
 /* section three ends here */
@@ -509,15 +525,16 @@ li a.header-id-one{
 }
 .section-six-child-two-discount{
   width: 500px;
-  height:120px;
+  height:80px;
   background:#ff5400; 
   color:#ffffff;
   font-size:2rem;
   font-weight: 800;
   transform: 19.63deg;
   position:absolute;
-  top:20%;
+  top:10%;
   left:10px;
+  padding:5px;
   }
 
  /* section six ends here */
