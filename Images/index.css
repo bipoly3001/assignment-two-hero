@@ -382,36 +382,35 @@ li a.header-id-one{
     margin:0 auto;
     }
 
-    .section-five-parent{
+.section-five-parent{
         display:flex; 
         gap:50px; 
     }
 
-    .section-five-container-one{
+.section-five-container-one{
         width:46%; 
         height: 600px;        
         margin:0 auto;       
         
     }
 
-    .section-five-container-two{
+.section-five-container-two{
         width:46%; 
         height: 600px;        
         margin:0 auto;
     }
 
-    .section-five-title{
+.section-five-title{
 
         width: 450px;
         height:120px;
         color:#131318;
         font-size: 2.2rem;
         font-weight: 800;
-        margin-bottom: 25px;
-       
+        margin-bottom: 25px;       
     }
 
-    .section-five-statement{
+.section-five-statement{
         width:532px;
         height:52px;
         font-size: 1rem;
@@ -420,7 +419,7 @@ li a.header-id-one{
         margin-top: 25px;
     }
 
-    .section-five-point-one,.section-five-point-two{
+.section-five-point-one,.section-five-point-two{
         width:518px;
         height:52px;
         color:#131318;
@@ -428,7 +427,7 @@ li a.header-id-one{
         font-weight: 700;
     }
 
-    .section-five-see-more{
+.section-five-see-more{
         width:150px;
         background: #ff5400;
         color:white;
@@ -436,10 +435,89 @@ li a.header-id-one{
         font-size: 1.2rem;
     }
 
-    .section-five-container-two{
+.section-five-container-two{
         width:46%; 
         height: 600px;        
         margin:0 auto;
         margin-top: 35px;
-
     }
+
+    /* section five ends here */
+    /* section six ends here */
+
+.section-six-container{    
+            width:1170px;
+            height:600px;    
+            margin:0 auto;            
+    }
+.section-six-parent{
+    display:flex;
+    gap:50px;
+    justify-content: space-around;
+}
+
+.section-six-child-one{
+    width:46%;
+    height:600px;   
+}
+
+.section-six-title{
+    width:150px;
+    height:35px;
+    color:#131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.section-six-statement{
+    width: 350px;
+    height:52px; 
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5a5a5d;
+    margin-bottom: 30px;
+}
+
+.section-six-input-one{ 
+    width:350px;
+    height:53px;
+    color:#131318; 
+    margin-bottom:30px;  
+    }
+
+.section-six-input-two{    
+        width:350px;
+        height:53px;
+        color:#131318; 
+        margin-bottom:30px;    
+}
+
+.section-six-sub{
+    width:380px;
+    height: 53px;
+    background: #ff5400;
+    color:white;
+    border-radius: 12px;
+    font-size: 1.2rem;
+}
+
+.section-six-child-two{
+    width:46%;
+    height:600px;   
+    position: relative;
+}
+.section-six-child-two-discount{
+  width: 500px;
+  height:120px;
+  background:#ff5400; 
+  color:#ffffff;
+  font-size:2rem;
+  font-weight: 800;
+  transform: 19.63deg;
+  position:absolute;
+  top:20%;
+  left:10px;
+  
+
+}
